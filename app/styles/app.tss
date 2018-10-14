@@ -1,0 +1,9 @@
+"Label": {
+	color: '#000',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+"TextField": {
+	color:"#000",
+	borderColor: "#000"
+}

@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+		<Label id="lbl_userCount" text="0"/>
+		<ScrollView id="scroller">
+			<Label id="lbl"/>
+		</ScrollView>
+
+		<TextField id="tf_message"/>
+		<Button id="btn_send" onClick="onSend" title="send"/>
+		<Button id="btn_disconnect" onClick="onDisconnect" title="disc"/>
+	</Window>
+</Alloy>

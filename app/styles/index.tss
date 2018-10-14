@@ -1,0 +1,29 @@
+".container" : {
+	backgroundColor: "white"
+}
+"#btn_send" : {
+	bottom: 0,
+	right:0
+}
+"#tf_message" : {
+	width: Ti.UI.FILL,
+	bottom: 50
+}
+"#lbl" : {
+	top: 0,
+	left: 0
+}
+"#lbl_userCount" : {
+	top: 0,
+	right: 0
+}
+"#scroller" : {
+	top: 10,
+	bottom: 100,
+	width: Ti.UI.FILL
+}
+
+"#btn_disconnect": {
+	bottom: 0,
+	left:0
+}
