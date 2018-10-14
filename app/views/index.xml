@@ -7,6 +7,6 @@
 
 		<TextField id="tf_message"/>
 		<Button id="btn_send" onClick="onSend" title="send"/>
-		<Button id="btn_disconnect" onClick="onDisconnect" title="disc"/>
+		<Button id="btn_disconnect" onClick="onDisconnect" title="disconnect"/>
 	</Window>
 </Alloy>

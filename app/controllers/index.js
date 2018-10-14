@@ -4,6 +4,9 @@ var isConnected = true;
 var socket;
 
 function doConnect() {
+	// connect to server
+	// add listener events (they will be removed when disconnecting)
+
 	socket = io.connect(SERVER_IP);
 
 	socket.on('connect', function() {
@@ -42,17 +45,16 @@ function onSend(e) {
 
 function onDisconnect(e) {
 	if (isConnected) {
-		// socket.close();
+		socket.close();
 		socket.disconnect();
 		isConnected = false;
-		$.btn_disconnect.title = "con";
+		$.btn_disconnect.title = "connect";
 		$.lbl.text = "";
 		$.lbl_userCount.text = 0;
 	} else {
-		console.log("reconnect");
 		doConnect();
 		isConnected = true;
-		$.btn_disconnect.title = "disc";
+		$.btn_disconnect.title = "disconnect";
 	}
 }
 
