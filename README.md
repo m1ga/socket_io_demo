@@ -1,5 +1,7 @@
 # Axway Appcelerator socket.io demo app + node.js server
 
+<span class="badge-buymeacoffee"><a href="https://www.buymeacoffee.com/miga" title="donate"><img src="https://img.shields.io/badge/buy%20me%20a%20coke-donate-orange.svg" alt="Buy Me A Coke donate button" /></a></span>
+
 Just a basic socket.io chat app and a node.js socket server.
 
 ## How to run
