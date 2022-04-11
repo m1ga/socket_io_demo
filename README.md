@@ -1,4 +1,4 @@
-# Axway Appcelerator socket.io demo app + node.js server
+# Appcelerator titanium socket.io demo app + node.js server
 
 <span class="badge-buymeacoffee"><a href="https://www.buymeacoffee.com/miga" title="donate"><img src="https://img.shields.io/badge/buy%20me%20a%20coke-donate-orange.svg" alt="Buy Me A Coke donate button" /></a></span>
 
@@ -11,6 +11,8 @@ Just a basic socket.io chat app and a node.js socket server.
 * open "http://127.0.0.1:8080"
 * change the `SERVER_IP` inside the index.js controller
 * compile and run the app: `ti build -p android -T device`
+* import the modules from https://github.com/tidev/titanium-socketio
+
 
 ## Features
 
