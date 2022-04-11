@@ -1,5 +1,5 @@
 const io = require('ti.socketio');
-const SERVER_IP = "http://192.168.0.10:8080";
+const SERVER_IP = "http://192.168.0.54:8080";
 var isConnected = true;
 var socket;
 
