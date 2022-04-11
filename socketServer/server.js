@@ -12,7 +12,10 @@ var server = http.createServer(function(req, res) {
 });
 
 // Loading socket.io
-var io = require('socket.io').listen(server);
+const {
+	Server
+} = require("socket.io");
+const io = new Server(server, {});
 var lastMessages = [];
 
 // When a client connects, we note it in the console
@@ -36,7 +39,7 @@ io.sockets.on('connection', function(socket) {
 	socket.on('message', function(msg) {
 		console.log('Got a message: ' + msg);
 		socket.broadcast.emit('message', msg);
-		if (lastMessages.length>5){
+		if (lastMessages.length > 5) {
 			lastMessages.shift();
 		}
 		lastMessages.push(msg);
@@ -45,12 +48,10 @@ io.sockets.on('connection', function(socket) {
 	socket.on('disconnecting', function(res) {
 		console.log("A client is gone", io.engine.clientsCount);
 		socket.broadcast.emit("data", {
-			"message":"Client is gone...",
+			"message": "Client is gone...",
 			"userCount": (io.engine.clientsCount - 1)
 		});
 	});
 });
-
-
 
 server.listen(8080);
