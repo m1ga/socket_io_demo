@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="container">
+	<Window>
 		<Label id="lbl_userCount" text="0"/>
 		<ScrollView id="scroller">
 			<Label id="lbl"/>

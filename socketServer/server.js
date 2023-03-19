@@ -15,7 +15,12 @@ var server = http.createServer(function(req, res) {
 const {
 	Server
 } = require("socket.io");
-const io = new Server(server, {});
+const io = new Server(server, {
+	// allowEIO3: true, // only for old v3
+	cors: {
+		origin: '*',
+	}
+});
 var lastMessages = [];
 
 // When a client connects, we note it in the console
@@ -37,12 +42,12 @@ io.sockets.on('connection', function(socket) {
 	});
 
 	socket.on('message', function(msg) {
-		console.log('Got a message: ' + msg);
+		console.log('Got a message:\n' + JSON.stringify(msg));
 		socket.broadcast.emit('message', msg);
-		if (lastMessages.length > 5) {
-			lastMessages.shift();
-		}
-		lastMessages.push(msg);
+		// if (lastMessages.length > 5) {
+		// 	lastMessages.shift();
+		// }
+		// lastMessages.push(msg);
 	});
 
 	socket.on('disconnecting', function(res) {
