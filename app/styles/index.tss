@@ -24,3 +24,7 @@
 	bottom: 0,
 	left:0
 }
+
+'Window': {
+	extendSafeArea: false
+}

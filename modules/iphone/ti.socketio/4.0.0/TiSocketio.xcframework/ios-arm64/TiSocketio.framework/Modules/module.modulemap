@@ -1,0 +1,10 @@
+framework module TiSocketio {
+  umbrella header "TiSocketio.h"
+  export *
+
+  module * { export * }
+}
+
+module TiSocketio.Swift {
+  header "TiSocketio-Swift.h"
+}

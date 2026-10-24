@@ -1,0 +1,189 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TiSocketio",
+    "printedName": "TiSocketio",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TiSocketio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TitaniumKit",
+        "printedName": "TitaniumKit",
+        "declKind": "Import",
+        "moduleName": "TiSocketio"
+      },
+      {
+        "kind": "Import",
+        "name": "SocketIO",
+        "printedName": "SocketIO",
+        "declKind": "Import",
+        "moduleName": "TiSocketio"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TiSocketio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TitaniumKit",
+        "printedName": "TitaniumKit",
+        "declKind": "Import",
+        "moduleName": "TiSocketio"
+      },
+      {
+        "kind": "Import",
+        "name": "SocketIO",
+        "printedName": "SocketIO",
+        "declKind": "Import",
+        "moduleName": "TiSocketio"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TiSocketio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TitaniumKit",
+        "printedName": "TitaniumKit",
+        "declKind": "Import",
+        "moduleName": "TiSocketio"
+      },
+      {
+        "kind": "Import",
+        "name": "SocketIO",
+        "printedName": "SocketIO",
+        "declKind": "Import",
+        "moduleName": "TiSocketio"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketIOClientProxy.swift",
+      "kind": "Array",
+      "offset": 593,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketIOClientProxy.swift",
+      "kind": "Dictionary",
+      "offset": 654,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketIOClientProxy.swift",
+      "kind": "Dictionary",
+      "offset": 710,
+      "length": 119,
+      "value": "[(\"connect_error\", \"error\"), (\"reconnect_attempt\", \"reconnectAttempt\"), (\"reconnecting\", \"reconnectAttempt\")]"
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 418,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 530,
+      "length": 5,
+      "value": "20000"
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 1106,
+      "length": 19,
+      "value": "\"Invalid arguments\""
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 1138,
+      "length": 55,
+      "value": "\"socket() expects a namespace string as first argument\""
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 19,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 1214,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 1275,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "FloatLiteral",
+      "offset": 1639,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 1710,
+      "length": 17,
+      "value": "\"connect_timeout\""
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/SocketManagerProxy.swift",
+      "kind": "Array",
+      "offset": 1735,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/miga\/titanium-socketio\/ios\/Classes\/TiSocketioModule.swift",
+      "kind": "Dictionary",
+      "offset": 305,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
